@@ -10,20 +10,25 @@
 </head>
 
 <body>
-<div class="container">
-  <div id="title" class="col-sm-12 text-center">CALCULATOR</div>
-    <input id="num1">  <input id="num2">
-      <button data-btn="btn1" id="btn1" class="btns add">+</button>
-      <button data-btn="btn2" id="btn2" class="btns subtract">-</button>
-      <button data-btn="btn3" id="btn3" class="btns multiply">*</button>
-      <button data-btn="btn4" id="btn4" class="btns divide">/</button>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 id="title" class="text-center">CALCULATOR</h1>
+        <div class="text-center">
+          <input id="num1">  <input id="num2">
+          <button data-btn="+" id="btn1" class="btns">+</button>
+          <button data-btn="-" id="btn2" class="btns">-</button>
+          <button data-btn="*" id="btn3" class="btns">*</button>
+          <button data-btn="/" id="btn4" class="btns ">/</button>
+          <p id="add-sum">The answer is: <span id="answer"></span></p>
 
-<p id="add-sum">The answer is:</p>
+          <button id="reset">Clear</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<button id="reset" class="center-block">Clear</button>
-</div>
-
-<script src="calculator.js"></script>
+  <script src="calculator.js"></script>
 </body>
 
 </html>

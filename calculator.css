@@ -9,12 +9,7 @@ body {
   text-align: center;
 }
 
-#num1 {
-  margin-left: 390px;
-}
-
 #add-sum {
-  text-align: center;
   margin-top: 20px;
   font-size: 20px;
 }
@@ -31,7 +26,8 @@ body {
 }
 
 .btns {
-    font-size: 20px;
+  border: 1px solid black;
+  font-size: 20px;
 }
 
 .btns:hover {
